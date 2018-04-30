@@ -1,0 +1,115 @@
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: white;
+  font-size: 20px;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
+  padding-top: 20%;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.menu-item {
+    display: inline-flex;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    margin-left:5%;
+    margin-right:5%;
+}
+
+.home-icon {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url('../../public/img/home.png');
+    vertical-align: middle;
+}
+.timeline-icon {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url('../../public/img/timeline.png');
+    vertical-align: middle;
+}
+.about-icon {
+    display: inline-flex;;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url('../../public/img/about.png');
+    vertical-align: middle;
+}
+.contact-icon {
+    display: inline-flex;
+    width: 30px;
+    height: 30px;
+    background-size: 30px 30px;
+    background-image: url('../../public/img/contact.png');
+    vertical-align: middle;
+}
+
+.icon-text {
+    display: inline-flex;
+    padding-left: 5%;
+    vertical-align: middle;
+}
+
+.content {
+    height: 10000px;
+}
+
+.cover-page {
+    float: left;
+    z-index: 1000;
+    width: 100vw;
+    height: 100vh;
+    color: blue;
+}
+
+.bm-wrapper-false {
+    display: none;
+}
+
+body {
+    margin: 0;
+}
+
+a {
+    font-family: "Courier";
+    color: black;
+    text-decoration: none;
+}
