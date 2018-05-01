@@ -94,14 +94,17 @@
 
 .cover-page {
     float: left;
-    z-index: 1000;
     width: 100vw;
     height: 100vh;
-    color: blue;
+    background-image: url('../../public/img/background.jpg');
+    background-size: cover;
+    box-shadow: inset 0px 0px 25px 15px white;
 }
+
 
 .bm-wrapper-false {
     display: none;
+    transition: visibility 0.5s, opacity 0.5s linear;
 }
 
 body {
